@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="334.0" prefWidth="330.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.shytov.controller.MainController">
+   <children>
+      <TextField fx:id="textField" layoutX="83.0" layoutY="14.0" prefHeight="60.0" prefWidth="172.0" />
+      <Button layoutX="93.0" layoutY="108.0" mnemonicParsing="false" onAction="#slozenie" prefHeight="41.0" prefWidth="44.0" text="+" />
+      <Button layoutX="191.0" layoutY="108.0" mnemonicParsing="false" onAction="#vichitanie" prefHeight="41.0" prefWidth="44.0" text="-" />
+      <Button layoutX="93.0" layoutY="187.0" mnemonicParsing="false" onAction="#ymnozenie" prefHeight="41.0" prefWidth="44.0" text="*" />
+      <Button layoutX="191.0" layoutY="187.0" mnemonicParsing="false" onAction="#delenie" prefHeight="41.0" prefWidth="44.0" text="/" />
+      <Button layoutX="272.0" layoutY="23.0" mnemonicParsing="false" onAction="#removeResult" prefHeight="41.0" prefWidth="44.0" text="C" />
+   </children>
+</AnchorPane>
